@@ -1,0 +1,42 @@
+{"API Information":
+    {
+        "parameters":{
+            "online_order":{
+                "type":"string Yes/No",
+                "required":"Yes",
+                "description":" whether online ordering is available in the restaurant or not"
+            },
+            "book_table":{
+                "type":"string Yes/No",
+                "required":"Yes",
+                "description":"whether booking a table is available in the restaurant or not"
+            },
+            "MealType":{
+                "type":"string Buffet/Cafes/Delivery/Desserts/Dine-out/Drinks & nightlife/Pubs and bars",
+                "required":"Yes",
+                "description":"meal type of the restaurant"
+            },
+            "votes":{
+                "type":"float",
+                "required":"Yes",
+                "description":"number of votes for the restaurant"
+            },
+            "costfor2":{
+                "type":"float",
+                "required":"Yes",
+                "description":"Approx. cost for 2 people"
+            }
+
+        },
+
+        "URL for API endpoint":{
+            "type":"GET",
+            "URL":"https://restaurantratingpredictionapp.herokuapp.com/api/predict/"
+            
+        }
+
+
+    }
+
+
+}
