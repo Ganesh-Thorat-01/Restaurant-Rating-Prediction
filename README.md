@@ -109,7 +109,6 @@ The data scraped was entirely for educational purposes only. Note that I don’t
 ## Authors
 
 - [@Ganesh-Thorat-01](https://github.com/Ganesh-Thorat-01/)
-- [@SejalKathed](https://github.com/SejalKathed)
 
 ## Feedback
 
